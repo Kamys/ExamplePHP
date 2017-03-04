@@ -7,23 +7,15 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>My Example.</title>
     </head>
     <body>
-        <form action="action.php" method="post">
-            <p>Введите параметр 1: <input type="text" name="param_1" /></p>
-            <p>Введите параметр 2: <input type="text" name="param_2" /></p>
-            <p><input type="submit" /></p>
-        </form>
-        <div>
-            <?php
-            $param_1 = (int) $_POST['param_1'];
-            $param_2 = (int) $_POST['param_2'];
-            
-            $result = $param_1 + $param_2;
-
-            echo "Ответ: $param_1 + $param_2 = $result";
-            ?>
-        </div>
+        <h2>Thist list example for PHP.</h2>
+        <ul>
+            <li> <a href="/app/model/Calculator.php"> Calculator </a> </li>
+            <li> <a href="/index.php"> Main </a> </li>
+            <li> <a href="/index.php"> Main </a> </li>
+            <li> <a href="/index.php"> Main </a> </li>
+        </ul>
     </body>
 </html>
